@@ -73,24 +73,77 @@ div.btn_stat {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #544f7b;
-	border-radius: 10px;
+	border-radius: 6px;
 	margin-top: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 50px;
 }
 
 #btn_stat_today {
 	padding-right: 100px;
 	padding-left: 100px;
+	color: white;
+	font-size: 20px;
 }
 
 #btn_stat_course {
 	padding-right: 75px;
 	padding-left: 75px;
+	color: white;
+	font-size: 20px;
 }
 
-#btn_stat_today li:hover{
-	background-color: #544f7b;
+#btn_stat_left :focus{
+	background: #544f7b;
+	text-decoration: none;
+	color: white;
 }
 
-#btn_stat_course li:focus{
-	background-color: #544f7b;
+#btn_stat_right :focus{
+	background: #544f7b;
+	text-decoration: none;
+	color: white;
+}
+
+div.cnt_learng h2 {
+	margin-left: 150px;
+}
+
+div.cnt_learng img {
+	margin-left: 150px;
+	filter: drop-shadow(0px 0px 3px #000000);
+}
+
+div.start_kit h2 {
+	margin-left: 150px;
+}
+
+div.start_kit li {
+	list-style: none;
+	display: inline-flex;
+	margin-left: 150px;
+	filter: drop-shadow(0px 0px 3px #000000);
+}
+
+div.new_info h2 {
+	margin-left: 150px;
+}
+
+div.new_info li {
+	list-style: none;
+	display: inline-flex;
+	margin-left: 150px;
+	filter: drop-shadow(0px 0px 3px #000000);
+}
+
+div.dif_ways h2 {
+	margin-left: 150px;
+}
+
+div.dif_ways li {
+	list-style: none;
+	display: inline-flex;
+	margin-left: 150px;
+	filter: drop-shadow(0px 0px 3px #000000);
 }
