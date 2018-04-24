@@ -80,17 +80,25 @@ div.btn_stat {
 #btn_stat_today {
 	padding-right: 100px;
 	padding-left: 100px;
+	color: white;
+	font-size: 20px;
 }
 
 #btn_stat_course {
 	padding-right: 75px;
 	padding-left: 75px;
+	color: white;
+	font-size: 20px;
 }
 
-#btn_stat_today li:hover{
-	background-color: #544f7b;
+#btn_stat_left :focus{
+	background: #544f7b;
+	text-decoration: none;
+	color: white;
 }
 
-#btn_stat_course li:focus{
-	background-color: #544f7b;
+#btn_stat_right :focus{
+	background: #544f7b;
+	text-decoration: none;
+	color: white;
 }
